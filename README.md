@@ -39,11 +39,12 @@ Now that you've all seen the above presentation, these are some simple instructi
 4. Decide if you'd like to use the Jupyter notebook (a) or the python script (b):/
    a) **Jupyter Notebook** - All graphs/circuit diagrams are produced & shown in the notebook.
    ```
-   jupyter notebook ____.ipynb
+   jupyter notebook notebookTutorial.ipynb
    ```
+   If you'd like the qiskit notebook, which is much more detailed in explaining each step, you can find it [here](https://github.com/Qiskit/qiskit-tutorials/blob/master/tutorials/circuits/1_getting_started_with_qiskit.ipynb).
    b) **Python Script** - All graphs/circuit diagrams are saved as pdf's.
    ```
-   python3 ___.py
+   python3 scriptTutorial.py
    ```
 
 Now you're done! You may quantum compute to your heart's content. 
