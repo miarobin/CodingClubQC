@@ -33,3 +33,19 @@ Now that you've all seen the above presentation, these are some simple instructi
     pip install 'qiskit[visualization]'   *if you're on MacOS*
     ```
 3. Clone this github repository 
+    ```
+    git clone ___
+    ```
+4. Decide if you'd like to use the Jupyter notebook (a) or the python script (b):/
+   a) **Jupyter Notebook** - All graphs/circuit diagrams are produced & shown in the notebook.
+   ```
+   jupyter notebook ____.ipynb
+   ```
+   b) **Python Script** - All graphs/circuit diagrams are saved as pdf's.
+   ```
+   python3 ___.py
+   ```
+
+Now you're done! You may quantum compute to your heart's content. 
+
+## How to use the IBM Quantum Computer
