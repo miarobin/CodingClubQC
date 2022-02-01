@@ -1,6 +1,6 @@
 # CodingClubQC
 See the preceeding presentation [here](https://github.com/miarobin/CodingClubQC/blob/main/VeryBasicQuantumComputing.pdf).
-See a guide to quantum gates HERE.
+See a guide to quantum gates [here](https://github.com/miarobin/CodingClubQC/blob/main/QuantumGates.pdf).
 
 ## Instructions for Qiskit
 Now that you've all seen the above presentation, these are some simple instructions to work qiskit. 
@@ -36,16 +36,12 @@ Now that you've all seen the above presentation, these are some simple instructi
     ```
     git clone git@github.com:miarobin/CodingClubQC.git
     ```
-4. Decide if you'd like to use the Jupyter notebook (a) or the python script (b):\
-   a) **Jupyter Notebook** - All graphs/circuit diagrams are produced & shown in the notebook.
+4. Start the jupyter notebook
    ```
    jupyter notebook part1_notebook.ipynb
    ```
    If you'd like the qiskit notebook, which is much more detailed in explaining each step, you can find it [here](https://github.com/Qiskit/qiskit-tutorials/blob/master/tutorials/circuits/1_getting_started_with_qiskit.ipynb).\
-   b) **Python Script** - All graphs/circuit diagrams are saved as pdf's.
-   ```
-   python3 scriptTutorial.py
-   ```
+
 
 Now you're done! You may quantum compute to your heart's content. 
 
