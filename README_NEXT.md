@@ -13,7 +13,21 @@ Here are two algorithms which you can build & run on the IBM quantum computer:
 Choose one to start with (order doesn't matter).
 
 ## 1. The Prime Factorisation Algorithm.
+This tutorial is going to run you through Shor's factorisation algorithm. Essentially, you can use a quantum computer to speed up factorisation to polynomial time, from the best known classical algorithm which runs in super-polynomial time (i.e. time is not bounded by any polynomial).
 
+The prime factorisation algorithm essentially boils down to the following things:/
+a) Quantum Phase Estimation/
+```
+jupyter notebook quantum_phase_estimation.ipynb
+```
+b) Quantum Fourier Transform/
+```
+jupyter notebook quantum_fourier_transform.ipynb
+```
+c) Period Finding/
+```
+jupyter notebook period_finding.ipynb
+```
 
 ## 2. Quantum Error Correction.
 
