@@ -29,8 +29,7 @@ Now that you've all seen the above presentation, these are some simple instructi
 2. Install qiskit package with pip:
     ```
     pip install qiskit                    *standard installation*
-    pip install qiskit[visualization]     *if you want fancy graphics*
-    pip install 'qiskit[visualization]'   *if you're on MacOS*
+    pip install 'qiskit[visualization]'   *if you want fancy graphics*
     ```
 3. Clone this github repository 
     ```
