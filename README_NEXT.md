@@ -71,3 +71,16 @@ from qiskit import IBMQ
 provider = IBMQ.enable_account('MY_API_TOKEN')
 backend = provider.get_backend('ibmq_qasm_simulator')
 ```
+
+Then to run a circuit `QuantumCircuit.circuit`
+```
+from qiskit.tools.monitor import job_monitor
+provider = IBMQ.get_provider(hub='ibm-q')
+santiago = provider.get_backend('ibmq_santiago')
+
+# Run with 2048 shots
+shots = 2048
+t_qpe = transpile(circuit, santiago, optimization_level=3)
+job = santiago.run(circuit, shots=shots)
+job_monitor(job)
+```
